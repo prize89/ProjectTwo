@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Project 2</title>
+        <style>
+*{
+    box-sizing: border-box; margin:0;padding: 0;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(15, 82, 183);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: red;margin-bottom: 30px;text-shadow: 2px
+    2px 4px darkblue;
+}
+.menu-container{
+    display: flex; gap:30px;
+}
+.hub-btn{
+    padding: 40px 60px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkgreen;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 10px;
+    transition: transform 0.3s,background 0.3s;
+    text-align: center;
+}
+.hub-btn:hover{
+    transform:scale(1.2);
+    background: magenta;
+}
 
+        </style>
+    </head>
+    <body>
+        <h1>Welcome to the Purchasing Hub</h1>
+        <br><br>
+        <div class=""menu-container">
+        <a href="resume.html" class="hub-btn
+        res-color">My Resume</a>
+        <a href="store.html" class="hub-btn
+        store-color">My Store</a>
+    </div>
+    </body>
